@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="github"
+        fetch=".."
+        review="review.martinbrabh.am" />
+
+    <remote  name="private"
+        fetch="ssh://git@github.com" />
+
+    <default revision="refs/heads/main"
+        remote="github"
+        sync-c="true"
+        sync-j="8" />
+
+    <!-- Coding Tools -->
+    <project path=".config/nvim" name="optedoblivion/dot_config_nvim" groups="editor,ide" />
+
+    <!-- Desktop Environment -->
+    <!-- Sway config nets and `/etc/sway/config.d/50-systemd-user.conf` file -->
+    <project path=".config/sway" name="optedoblivion/dot_config_sway" groups="desktopenvironment,windowmanager" />
+    <project path=".config/swaybar" name="optedoblivion/dot_config_swaybar" groups="desktopenvironment,windowmanager" />
+    <project path=".config/swaylock" name="optedoblivion/dot_config_swaylock" groups="desktopenvironment,windowmanager" />
+
+    <!-- Audio -->
+    <!-- Video -->
+    <!-- Look & Feel -->
+
+<!-- <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" /> -->
+<!-- </project> -->
+</manifest>
