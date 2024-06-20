@@ -1,0 +1,39 @@
+What do you need from an environment?
+
+- BASH Commands (aka local ~/bin equivalent): Gungnir
+- IDE: NeoVIM + LazyVim
+    - Coding Languages:
+        - Rust
+        - C/C++
+        - Kotlin
+        - Java
+- Source Control: Git + LazyGit
+- Identity:
+    - SSH Keys
+    - GPG Keys
+- Login
+    - finger print
+    - password
+    - PAM Duress plugin
+- GUI: Sway
+    - Sway config and scripts
+    - Swaybar and scripts
+- Terminal: Allacritty
+- Prompt: Starship (although promptline is nice)
+- Overall Look and Feel
+    - Tokyo night
+- File manager: Yazi
+- Browser: Firefox
+- Video: VLC
+- Music: MPD
+- GNU Software replacements:
+    - bat (cat)
+- Configs:
+    - gitconfig
+    - screenrc
+    - Xdefaults?
+- What do I need from /etc ?
+- Bluetooth
+- WiFi
+- WWAN
+- Local AI: llamacpp + mistralv7 (or better)
