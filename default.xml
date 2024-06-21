@@ -12,6 +12,9 @@
         sync-c="true"
         sync-j="8" />
 
+    <!-- Core OS -->
+    <project path=".pacman" name="optedoblivion/dot_pacman" groups="arch,base,os" />
+
     <!-- Coding Tools -->
     <project path=".config/nvim" name="optedoblivion/dot_config_nvim" groups="editor,ide" />
 
@@ -21,6 +24,7 @@
     <project path=".config/swaybar" name="optedoblivion/dot_config_swaybar" groups="desktopenvironment,windowmanager" />
     <project path=".config/swaylock" name="optedoblivion/dot_config_swaylock" groups="desktopenvironment,windowmanager" />
 
+    <!-- File Manager -->
     <!-- Audio -->
     <!-- Video -->
     <!-- Look & Feel -->

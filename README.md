@@ -37,3 +37,5 @@ What do you need from an environment?
 - WiFi
 - WWAN
 - Local AI: llamacpp + mistralv7 (or better)
+
+Generify applications using aliases
